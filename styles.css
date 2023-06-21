@@ -1,0 +1,62 @@
+.formulario {
+  background-color: white;
+  margin: 0 auto;
+  width: 40%;
+  border: 1px solid #999;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+input {
+  height: 54px;
+  width: 60%;
+  border: 1px solid grey;
+  border-radius: 8px;
+  outline: none;
+  padding-left: 8px;
+}
+
+button {
+  height: 54px;
+  width: 60%;
+  background-color: rgb(75, 180, 248);
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: rgb(45, 164, 244);
+}
+
+a {
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+.cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  top
+}
+
+.cadastro p {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: white;
+  width: 39%;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: 10px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
