@@ -1,62 +1,104 @@
+:root{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .formulario {
-  background-color: white;
   margin: 0 auto;
   width: 40%;
-  border: 1px solid #999;
   border-radius: 4px;
+  border: 1px solid #383737;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 20px;
   align-items: center;
-  font-family: sans-serif;
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.input-area {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-area input {
+  width: 100%;
+}
+
+.texto-erro {
+  color: red;
+  margin: 4px;
 }
 
 input {
   height: 54px;
-  width: 60%;
-  border: 1px solid grey;
+  width: 80%;
   border-radius: 8px;
+  border: 1px solid #756767;
   outline: none;
-  padding-left: 8px;
 }
 
 button {
+  width: 80%;
   height: 54px;
-  width: 60%;
-  background-color: rgb(75, 180, 248);
+  background-color: #3578e5;
+
   color: white;
   font-size: 18px;
-  border: none;
   border-radius: 8px;
-  margin-bottom: 20px;
+  border: none;
 }
 
 button:hover {
-  background-color: rgb(45, 164, 244);
+  background-color: #286ee0;
 }
 
-a {
-  margin-bottom: 30px;
+.input-error {
+  border-color: red;
+}
+
+/* CSS DO FEED */
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  width: 200px;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.sidebar a {
+  color: #fff;
   text-decoration: none;
 }
 
-.cadastro {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 8px;
-  top
-}
-
-.cadastro p {
-  text-align: center;
-  font-family: sans-serif;
-  background-color: white;
-  width: 39%;
-  border: 1px solid #999;
-  border-radius: 4px;
-  padding: 10px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #ece8e8;
 }
