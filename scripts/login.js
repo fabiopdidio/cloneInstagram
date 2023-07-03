@@ -6,6 +6,12 @@ function clicarNoBotao() {
   document.getElementById("campo-senha").classList.remove("input-error");
 
   if (email === "") {
+    /* adiciona um estilo inline */
+    // document.getElementById('campo-email').style = "border-color: red"
+
+    /* adiciona um estilo direto no objeto */
+    // document.getElementById('campo-email').style.backgroundColor = 'red'
+
     document.getElementById("campo-email").classList.add("input-error");
     document.getElementById("campo-email").focus();
   } else if (senha === "") {

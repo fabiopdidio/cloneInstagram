@@ -7,7 +7,9 @@ function fazerCadastro() {
   var telefone = document.getElementById("campo-telefone").value;
   var email = document.getElementById("campo-email").value;
 
-  document.getElementById("campo-nome-completo").classList.remove("input-error");
+  document
+    .getElementById("campo-nome-completo")
+    .classList.remove("input-error");
   document.getElementById("error-nome").hidden = true;
 
   document.getElementById("campo-senha").classList.remove("input-error");
