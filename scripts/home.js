@@ -44,4 +44,17 @@ function mostrarInformacoes() {
   exibirImage();
 }
 
+function gerarTextoBemVindo() {
+  const nome = localStorage.getItem("nome_usuario");
+
+  if (!nome) {
+    window.location.href = "./index.html";
+  } else {
+    document.getElementById("bem_vindo_usuario").innerText =
+      "Bem-vindo " + nome;
+  }
+}
+
+gerarTextoBemVindo();
+
 window.onload = mostrarInformacoes;
